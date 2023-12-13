@@ -208,13 +208,14 @@ ul {
 .header {
   list-style: none;
   display: flex;
+  margin: 0 auto;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 .container {
+  margin: 0 auto;
   justify-content: center;
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 .section {
