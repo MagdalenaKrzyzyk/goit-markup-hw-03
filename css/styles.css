@@ -240,7 +240,10 @@ img {
 }
 .addres-list {
   display: flex;
-  gap: 40px;
+  margin-right: 40px;
+}
+.addres-list:last-child {
+  margin-right: 0;
 }
 .list-one {
   display: flex;
