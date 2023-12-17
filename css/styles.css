@@ -44,9 +44,6 @@ img {
   display: flex;
   gap: 40px;
 }
-.addres-list:last-child {
-  margin-right: 0;
-}
 .button-one {
   background-color: var(--primary-brand);
   font-family: Roboto, sans-serif;
@@ -275,12 +272,18 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.section-two {
+  padding: 120px 0;
+}
 .section-two-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE);
   text-align: center;
+}
+.section-three {
+  padding-bottom: 120px;
 }
 .section-four {
   background-color: var(--cloud);
