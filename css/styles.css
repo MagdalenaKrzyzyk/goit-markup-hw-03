@@ -33,7 +33,6 @@ img {
   color: var(--SLATE);
   font-size: 16px;
   line-height: 1.5;
-  gap: 40px;
 }
 .adress-adds:hover {
   color: var(--pressed-state);
@@ -42,6 +41,7 @@ img {
   color: var(--pressed-state);
 }
 .addres-list {
+  gap: 40px;
   display: flex;
 }
 .button-one {
@@ -215,7 +215,6 @@ img {
 .list-nav:focus {
   color: var(--pressed-state);
 }
-
 .link {
   text-decoration: none;
 }
