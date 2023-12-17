@@ -40,7 +40,7 @@ img {
 .adress-adds:focus {
   color: var(--pressed-state);
 }
-.addres-list {
+.adress-list {
   gap: 40px;
   display: flex;
 }
