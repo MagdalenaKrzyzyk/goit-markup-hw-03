@@ -33,6 +33,7 @@ img {
   color: var(--SLATE);
   font-size: 16px;
   line-height: 1.5;
+  gap: 40px;
 }
 .adress-adds:hover {
   color: var(--pressed-state);
@@ -42,7 +43,6 @@ img {
 }
 .addres-list {
   display: flex;
-  gap: 40px;
 }
 .button-one {
   background-color: var(--primary-brand);
