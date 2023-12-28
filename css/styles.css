@@ -17,6 +17,7 @@ body {
   color: var(--SLATE, #434455);
   line-height: 24px;
   background-color: #fff;
+  margin: 0 141px;
 }
 ul {
   list-style-type: none;
@@ -35,14 +36,16 @@ img {
   line-height: 1.5;
 }
 .adress-adds:hover {
-  color: var(--pressed-state);
+  color: var(--SLATE);
 }
 .adress-adds:focus {
-  color: var(--pressed-state);
+  color: var(--SLATE);
 }
 .adress-list {
   gap: 40px;
   display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .button-one {
   background-color: var(--primary-brand);
@@ -172,6 +175,7 @@ img {
 .list-menu {
   display: flex;
   gap: 40px;
+  margin-left: 0;
 }
 
 .list-one {
@@ -227,6 +231,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-brand, #4d5ae5);
   margin-right: 76px;
+  width: 115px;
 }
 .logo-bottom {
   display: inline-block;
@@ -260,7 +265,7 @@ img {
   color: var(--SLATE);
 }
 .section {
-  padding: 188px 0;
+  width: 1440;
 }
 .section-a {
   padding-top: 96px;
