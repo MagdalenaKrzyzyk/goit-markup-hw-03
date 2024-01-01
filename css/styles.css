@@ -129,8 +129,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
-  margin-bottom: 8px;
-  margin: 0 auto;
+  margin: 0 auto 48px;
 }
 
 .header-two {
@@ -153,6 +152,7 @@ img {
 .header-three-a {
   margin-bottom: 8px;
   text-align: center;
+  font-weight: 500;
 }
 .header-four {
   font-weight: 500;
@@ -238,6 +238,7 @@ img {
 }
 .name {
   padding: 32px 0px;
+  text-align: center;
 }
 .photo-employee {
   background-color: var(--white);
@@ -275,7 +276,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE);
-  text-align: center;
 }
 .section-three {
   padding-bottom: 120px;
