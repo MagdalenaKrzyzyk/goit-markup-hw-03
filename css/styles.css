@@ -110,8 +110,6 @@ img {
 .header-zero {
   border-bottom: 1px solid #e7e9fc;
 }
-.hidden {
-}
 .link {
   text-decoration: none;
 }
@@ -174,6 +172,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .photo-text {
   padding: 32px 16px;
@@ -184,7 +183,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
-  margin-bottom: 8px;
 }
 .portfolio-list {
   flex-wrap: wrap;
