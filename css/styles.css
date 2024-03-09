@@ -33,6 +33,9 @@ img {
   font-style: normal;
   margin-right: 40px;
 }
+.adress-list {
+  gap: 40px;
+}
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -160,6 +163,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 .navigation {
   display: flex;
