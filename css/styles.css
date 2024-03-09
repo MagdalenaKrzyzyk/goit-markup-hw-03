@@ -34,6 +34,7 @@ img {
   margin-right: 40px;
 }
 .adress-list {
+  display: flex;
   gap: 40px;
 }
 .button {
@@ -45,6 +46,8 @@ img {
   background: var(--iris);
   cursor: pointer;
   display: block;
+  text-align: center;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -109,6 +112,7 @@ img {
   background: var(--WHITE, #fff);
   justify-content: space-between;
   align-items: center;
+  height: 72px;
 }
 .header-zero {
   border-bottom: 1px solid #e7e9fc;
