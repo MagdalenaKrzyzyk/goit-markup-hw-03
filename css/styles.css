@@ -72,7 +72,6 @@ img {
 }
 .container {
   margin: 0 auto;
-  justify-content: center;
   width: 1158px;
   padding: 0 15px;
 }
@@ -92,7 +91,11 @@ img {
   text-align: center;
 }
 .employee-text {
-  padding: 32px 16px;
+  padding: 32px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
 }
 .footer {
   background-color: var(--navy-blue);
@@ -107,9 +110,7 @@ img {
 }
 .header {
   display: flex;
-  margin: 0 auto;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
   justify-content: space-between;
   align-items: center;
   height: 72px;
@@ -137,7 +138,7 @@ img {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 40px;
 }
 .list-menu {
   display: flex;
@@ -172,7 +173,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .photo-title {
   font-weight: 500;
